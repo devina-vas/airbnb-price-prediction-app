@@ -64,8 +64,9 @@ The trained model was deployed as a **Streamlit web application** that:
 
 ##  Project Structure
 
-airbnb-price-prediction-app/
-│
+airbnb-price-prediction-app/  
+
+
 ├── app.py # Streamlit application code  
 
 ├── airbnb_price_model.pkl # Trained ML pipeline  
