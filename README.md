@@ -85,13 +85,64 @@ airbnb-price-prediction-app/
    ```bash
    git clone https://github.com/your-username/airbnb-price-prediction-app.git
 
-
 2. Navigate to the project directory:
    ```bash
    cd airbnb-price-prediction-app
-
 3. Install dependencies and Run the Streamlit app:
+   ```bash
+   pip install -r requirements.txt
+   streamlit run app.py
 
- ```bash
-pip install -r requirements.txt
-streamlit run app.py
+## Deployment
+
+The application can be deployed using Streamlit Community Cloud by connecting this GitHub repository. Once deployed, the app is accessible through a public URL.
+
+## Model Evaluation
+
+Model performance was evaluated using:
+
+RMSE (Root Mean Squared Error)
+
+MAE (Mean Absolute Error)
+
+R² Score
+
+An Actual Price vs Predicted Price comparison was also used to validate prediction accuracy.
+
+---
+
+## Key Insights
+
+Listings with more amenities tend to have higher prices
+
+Entire homes are priced higher than private or shared rooms
+
+Neighbourhood popularity significantly impacts pricing
+
+Host experience contributes to better pricing strategies
+
+## Technologies Used
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+Streamlit
+
+Joblib
+
+GitHub
+   
+      
+
+
+
+
+
+
+
+
+
+
