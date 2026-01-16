@@ -4,13 +4,13 @@ This project is an end-to-end **Machine Learning web application** that predicts
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 The primary objective of this project is to help Airbnb hosts determine an optimal listing price by leveraging historical data and machine learning techniques. Accurate price prediction enables hosts to remain competitive while maximizing revenue.
 
 ---
 
-## 🧠 Machine Learning Approach
+## Machine Learning Approach
 
 - **Problem Type:** Regression  
 - **Final Model Used:** Linear Regression  
@@ -24,7 +24,7 @@ Although advanced models like Random Forest and XGBoost were explored, Linear Re
 
 ---
 
-## ⚙️ Features Used in the Model
+##  Features Used in the Model
 
 The deployment-ready model was trained using the following features:
 
@@ -42,7 +42,7 @@ These features were selected to ensure consistency between model training and th
 
 ---
 
-## 🔄 Data Preprocessing
+##  Data Preprocessing
 
 - Missing values handled using **scikit-learn pipelines**
 - Numerical features imputed using median and scaled
@@ -52,7 +52,7 @@ These features were selected to ensure consistency between model training and th
 
 ---
 
-## 🌐 Web Application (Streamlit)
+##  Web Application (Streamlit)
 
 The trained model was deployed as a **Streamlit web application** that:
 - Accepts user input through an interactive UI
@@ -62,14 +62,18 @@ The trained model was deployed as a **Streamlit web application** that:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 airbnb-price-prediction-app/
 │
-├── app.py # Streamlit application code
-├── airbnb_price_model.pkl # Trained ML pipeline
-├── requirements.txt # Required Python libraries
-├── README.md # Project documentation
+├── app.py # Streamlit application code  
+
+├── airbnb_price_model.pkl # Trained ML pipeline  
+
+├── requirements.txt # Required Python libraries  
+
+├── README.md # Project documentation  
+
 
 
 ---
@@ -81,16 +85,12 @@ airbnb-price-prediction-app/
    git clone https://github.com/your-username/airbnb-price-prediction-app.git
 
 
-Navigate to the project directory:
+2. Navigate to the project directory:
+   ```bash
+   cd airbnb-price-prediction-app
 
-cd airbnb-price-prediction-app
+3. Install dependencies and Run the Streamlit app:
 
-
-Install dependencies:
-
+ ```bash
 pip install -r requirements.txt
-
-
-Run the Streamlit app:
-
 streamlit run app.py
